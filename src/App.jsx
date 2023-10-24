@@ -29,6 +29,17 @@ function App() {
             </div>
           </div>
           {/* Hero */}
+
+          <div className="sm:flex sm:text-center sm:justify-center sm:items-center md:flex-col ">
+            <p>WE CREATE DIGITAL PRODUCTS</p>
+            <p>
+              Introduce Our Creative
+              <br />
+              Agency
+            </p>
+
+            <button>SEE OUR WORK</button>
+          </div>
         </div>
       </div>
     </>
