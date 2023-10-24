@@ -47,10 +47,10 @@ function App() {
 
         {/* Welcome */}
         <div className="container">
-          <div className="sm:flex sm:text-center sm:justify-center sm:items-center sm:flex-col flex text-center flex-col items-center">
-            <p>Welcome to the Inertia Agency</p>
+          <div className="sm:flex sm:text-center sm:justify-center sm:items-center sm:flex-col flex text-start flex-col items-center">
+            <p className="text-[2rem]">Welcome to the Inertia Agency</p>
             <img src={dash} />
-            <p>
+            <p className="text-[1rem]">
               Inertia was founded to help developers and designers with their
               projects by <br /> offering great quality products. By developing
               a nicely designed, easy to customize <br /> theme, we strive to
