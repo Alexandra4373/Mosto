@@ -2,7 +2,15 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        padding: "2rem",
+        center: true,
+      },
+      backgroundImage: {
+        hero: "url('/src/assets/header.png')",
+      },
+    },
   },
   plugins: [],
 };
