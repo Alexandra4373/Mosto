@@ -6,13 +6,14 @@ function App() {
       <div className="">
         {/* Navbar and Hero*/}
         <div className="bg-hero">
-          {/* Hero */}
+          {/* Navbar */}
           <div className="container">
-            <div className="flex sm:justify-between sm:items-center py-4">
+            <div className="flex justify-between items-center py-4">
+              {/* logo */}
               <div className="">
                 <img src={logo} />
               </div>
-              <ul className=" hidden sm:flex">
+              <ul className=" hidden sm:flex gap-5">
                 <li>Home Pages</li>
                 <li>Blogs</li>
                 <li>Pages</li>
@@ -20,11 +21,14 @@ function App() {
                 <li>RTL Version</li>
                 <li>Theme docs</li>
               </ul>
-              <div className="justify-end ">
+
+              {/* Contact button */}
+              <div className="">
                 <button>Buy me</button>
               </div>
             </div>
           </div>
+          {/* Hero */}
         </div>
       </div>
     </>
