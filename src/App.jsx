@@ -1,5 +1,6 @@
 import logo from "./assets/logo.png";
 import dash from "./assets/Minus.png";
+import projects from "./assets/Projects.png";
 
 function App() {
   return (
@@ -46,9 +47,11 @@ function App() {
         </div>
 
         {/* Welcome */}
-        <div className="container">
+        <div className="container py-10">
           <div className="sm:flex sm:text-center sm:justify-center sm:items-center sm:flex-col flex text-start flex-col items-center">
-            <p className="text-[2rem]">Welcome to the Inertia Agency</p>
+            <p className="text-[2rem] text-blue">
+              Welcome to the Inertia Agency
+            </p>
             <img src={dash} />
             <p className="text-[1rem]">
               Inertia was founded to help developers and designers with their
@@ -57,6 +60,15 @@ function App() {
               offer a good variety of options to anyone without spending a lot{" "}
               <br /> of time and money.
             </p>
+          </div>
+        </div>
+
+        {/* featured products */}
+        <div className="container py-10">
+          <div className="sm:flex sm:text-center sm:justify-center sm:items-center sm:flex-col flex  flex-col items-center">
+            <p className="text-[2rem] text-blue">Featured Projects</p>
+            <img src={dash} />
+            <img src={projects} />
           </div>
         </div>
       </div>

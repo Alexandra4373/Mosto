@@ -10,6 +10,10 @@ export default {
       backgroundImage: {
         hero: "url('/src/assets/header.png')",
       },
+
+      colors: {
+        blue: " rgba(31, 44, 115, 1)",
+      },
     },
   },
   plugins: [],
