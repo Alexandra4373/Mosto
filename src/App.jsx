@@ -1,13 +1,14 @@
 import logo from "./assets/logo.png";
+import dash from "./assets/Minus.png";
 
 function App() {
   return (
     <>
       <div className="">
         {/* Navbar and Hero*/}
-        <div className="bg-hero">
+        <div className="bg-hero ">
           {/* Navbar */}
-          <div className="container">
+          <div className="container ">
             <div className="flex justify-between items-center py-4">
               {/* logo */}
               <div className="">
@@ -28,17 +29,34 @@ function App() {
               </div>
             </div>
           </div>
+
           {/* Hero */}
 
-          <div className="sm:flex sm:text-center sm:justify-center sm:items-center md:flex-col ">
-            <p>WE CREATE DIGITAL PRODUCTS</p>
-            <p>
-              Introduce Our Creative
-              <br />
-              Agency
-            </p>
+          <div className="container py-20">
+            <div className="sm:flex sm:text-center sm:justify-center sm:items-center sm:flex-col text-white ">
+              <p className="text-[0.75rem] ">WE CREATE DIGITAL PRODUCTS</p>
+              <p className="text-[3.25rem]">
+                Introduce Our Creative
+                <br />
+                Agency
+              </p>
+              <button className="text-[0.875rem] mt-10">SEE OUR WORK</button>
+            </div>
+          </div>
+        </div>
 
-            <button>SEE OUR WORK</button>
+        {/* Welcome */}
+        <div className="container">
+          <div className="sm:flex sm:text-center sm:justify-center sm:items-center sm:flex-col flex text-center flex-col items-center">
+            <p>Welcome to the Inertia Agency</p>
+            <img src={dash} />
+            <p>
+              Inertia was founded to help developers and designers with their
+              projects by <br /> offering great quality products. By developing
+              a nicely designed, easy to customize <br /> theme, we strive to
+              offer a good variety of options to anyone without spending a lot{" "}
+              <br /> of time and money.
+            </p>
           </div>
         </div>
       </div>
