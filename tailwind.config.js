@@ -21,7 +21,7 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         inter: ["Inter", "sans-serif"],
         barlow: ["Barlow", "sans-serif"],
-        spartan: ["League Spartan", "serif"],
+        spartan: ["League Spartan", "sans-serif"],
       },
     },
   },
