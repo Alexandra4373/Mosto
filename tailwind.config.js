@@ -13,6 +13,8 @@ export default {
 
       colors: {
         blue: " rgba(31, 44, 115, 1)",
+        secondary: "rgba(90, 108, 144, 0.8)",
+        light: "rgba(246, 249, 252, 1)",
       },
     },
   },
