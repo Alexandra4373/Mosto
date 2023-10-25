@@ -74,7 +74,7 @@ function App() {
           </div>
         </div>
 
-        <div className="container">
+        <div className="container py-10">
           <div className="flex flex-col gap-10 sm:flex-row justify-center items-center">
             <div className="">
               <div className="flex justify-center items-center">
@@ -100,6 +100,19 @@ function App() {
               <p className="text-blue text-[1rem] mt-5">David Gilmour</p>
               <p className="text-secondary text-[1rem]">Co-Founder</p>
             </div>
+          </div>
+        </div>
+
+        <div className="container py-10">
+          <div className="">
+            <p>Careers at Inertia</p>
+            <img src={dash} />
+            <p>
+              Join us in our quest to bring the best experiences through design
+              and technology to the world, our most important vision is to have
+              the best work culture possible.
+            </p>
+            <button>Careers at Inertia</button>
           </div>
         </div>
       </div>
