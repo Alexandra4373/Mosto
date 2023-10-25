@@ -1,6 +1,8 @@
 import logo from "./assets/logo.png";
 import dash from "./assets/Minus.png";
 import projects from "./assets/Projects.png";
+import stripe from "./assets/stripe.png";
+import dribble from "./assets/dribble.png";
 
 function App() {
   return (
@@ -69,6 +71,29 @@ function App() {
             <p className="text-[2rem] text-blue">Featured Projects</p>
             <img src={dash} />
             <img src={projects} />
+          </div>
+        </div>
+
+        <div className="">
+          <div className="">
+            <img src={stripe} />
+            <p>
+              "Focus on creating and growing your projects and websites, and
+              we‘ll always take care of spinning up new designs for your users
+              and making sure they look great"
+            </p>
+            <p>Roger Waters</p>
+            <p>Head of Design</p>
+          </div>
+          <div className="">
+            <img src={dribble} />
+            <p>
+              "The work that Inertia has done for our mobile app designs far
+              exceeded our expectations, can't wait to work with them once
+              again!"
+            </p>
+            <p>David Gilmour</p>
+            <p>Co-Founder</p>
           </div>
         </div>
       </div>
