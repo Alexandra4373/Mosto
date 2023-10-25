@@ -16,6 +16,13 @@ export default {
         secondary: "rgba(90, 108, 144, 0.8)",
         light: "rgba(246, 249, 252, 1)",
       },
+
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        barlow: ["Barlow", "sans-serif"],
+        spartan: ["League Spartan", "serif"],
+      },
     },
   },
   plugins: [],

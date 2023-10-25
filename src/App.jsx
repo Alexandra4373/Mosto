@@ -17,7 +17,7 @@ function App() {
               <div className="">
                 <img src={logo} />
               </div>
-              <ul className=" hidden sm:flex gap-5">
+              <ul className=" text-white hidden sm:flex gap-5">
                 <li>Home Pages</li>
                 <li>Blogs</li>
                 <li>Pages</li>
@@ -105,16 +105,18 @@ function App() {
 
         <div className="bg-light">
           <div className="container py-10">
-            <p>Careers at Inertia</p>
+            <p className="text-[2rem] text-blue">Careers at Inertia</p>
             <img src={dash} />
-            <p>
-              Join us in our quest to bring the best experiences through design
-              and technology to the world, our most important vision is to have
-              the best work culture possible.
+            <p className="text-[1rem] ">
+              Join us in our quest to bring the best experiences through
+              <br /> design and technology to the world, our most important{" "}
+              <br />
+              vision is to have the best work culture possible.
             </p>
-            <div className="">
-              <div className="">
-                <ul>
+            <div className="sm:flex gap-10">
+              <div className="sm:flex-1">
+                <p className="text-[1.2rem] text-blue mt-5">Dublin</p>
+                <ul className="text-[1rem]">
                   <li>Head of Marketing</li>
                   <li>UX Designer</li>
                   <li>Senior Programmer</li>
@@ -122,14 +124,16 @@ function App() {
                   <li>Lead Product Designer</li>
                 </ul>
               </div>
-              <div className="">
+              <div className="sm:flex-1">
+                <p className="text-[1.2rem] text-blue mt-5">Amsterdam</p>
                 <ul>
                   <li>Head of Operations</li>
                   <li>Mobile Engineer</li>
                   <li>Animation Designer</li>
                 </ul>
               </div>
-              <div className="">
+              <div className="sm:flex-1">
+                <p className="text-[1.2rem] text-blue mt-5">Mexico City</p>
                 <ul>
                   <li>Head of Motion Design</li>
                   <li>Graphics Engineer</li>
@@ -138,7 +142,7 @@ function App() {
                 </ul>
               </div>
             </div>
-            <button>Careers at Inertia</button>
+            <button className="mt-5">Careers at Inertia</button>
           </div>
         </div>
 
