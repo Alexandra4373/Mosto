@@ -103,8 +103,8 @@ function App() {
           </div>
         </div>
 
-        <div className="container py-10">
-          <div className="">
+        <div className="bg-light">
+          <div className="container py-10">
             <p>Careers at Inertia</p>
             <img src={dash} />
             <p>
@@ -112,8 +112,39 @@ function App() {
               and technology to the world, our most important vision is to have
               the best work culture possible.
             </p>
+            <div className="">
+              <div className="">
+                <ul>
+                  <li>Head of Marketing</li>
+                  <li>UX Designer</li>
+                  <li>Senior Programmer</li>
+                  <li>Mobile UI Designer</li>
+                  <li>Lead Product Designer</li>
+                </ul>
+              </div>
+              <div className="">
+                <ul>
+                  <li>Head of Operations</li>
+                  <li>Mobile Engineer</li>
+                  <li>Animation Designer</li>
+                </ul>
+              </div>
+              <div className="">
+                <ul>
+                  <li>Head of Motion Design</li>
+                  <li>Graphics Engineer</li>
+                  <li>Senior UI Designer</li>
+                  <li>Backend Engineer</li>
+                </ul>
+              </div>
+            </div>
             <button>Careers at Inertia</button>
           </div>
+        </div>
+
+        {/* Blog */}
+        <div className="">
+          <p>From the Blog</p>
         </div>
       </div>
     </>
