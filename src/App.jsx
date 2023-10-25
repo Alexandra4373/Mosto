@@ -74,26 +74,28 @@ function App() {
           </div>
         </div>
 
-        <div className="">
-          <div className="">
-            <img src={stripe} />
-            <p>
-              "Focus on creating and growing your projects and websites, and
-              we‘ll always take care of spinning up new designs for your users
-              and making sure they look great"
-            </p>
-            <p>Roger Waters</p>
-            <p>Head of Design</p>
-          </div>
-          <div className="">
-            <img src={dribble} />
-            <p>
-              "The work that Inertia has done for our mobile app designs far
-              exceeded our expectations, can't wait to work with them once
-              again!"
-            </p>
-            <p>David Gilmour</p>
-            <p>Co-Founder</p>
+        <div className="container">
+          <div className="flex flex-col gap-10 sm:flex-row justify-center items-center">
+            <div className="">
+              <img src={stripe} />
+              <p>
+                "Focus on creating and growing your projects and websites, and
+                we‘ll always take care of spinning up new designs for your users
+                and making sure they look great"
+              </p>
+              <p>Roger Waters</p>
+              <p>Head of Design</p>
+            </div>
+            <div className="">
+              <img src={dribble} />
+              <p>
+                "The work that Inertia has done for our mobile app designs far
+                exceeded our expectations, can't wait to work with them once
+                again!"
+              </p>
+              <p>David Gilmour</p>
+              <p>Co-Founder</p>
+            </div>
           </div>
         </div>
       </div>
