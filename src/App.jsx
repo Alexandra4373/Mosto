@@ -244,8 +244,8 @@ function App() {
         </div>
 
         {/* Footer */}
-        <div className="bg-black">
-          <div className="container">
+        <div className="">
+          <div className="">
             <div className="bg-footer p-20 text-white">
               <div className="sm:flex sm:flex-col sm:justify-center sm:items-center flex justify-center flex-col items-center">
                 <p className="text-[3rem] font-semibold font-spartan">
@@ -260,62 +260,66 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="bg-black text-white flex gap-10 justify-center items-center flex-col">
-              <div className="sm:py-20">
-                <div className="sm:flex sm:gap-10 sm:flex-row flex flex-col gap-10">
-                  <div className="flex justify-center flex-col items-center sm:flex-1">
-                    <p className="tracking-widest text-[0.875rem] font-bold font-spartan line-h-[20px] text-center">
-                      COMPANY
+            <div className="bg-black">
+              <div className="container ">
+                <div className="bg-black text-white flex gap-10 justify-center items-center flex-col">
+                  <div className="sm:py-20">
+                    <div className="sm:flex sm:gap-10 sm:flex-row flex flex-col gap-10">
+                      <div className="flex justify-center flex-col items-center sm:flex-1">
+                        <p className="tracking-widest text-[0.875rem] font-bold font-spartan line-h-[20px] text-center">
+                          COMPANY
+                        </p>
+                        <ul className="sm:mt-5 text-[1rem] font-spartan font-normal">
+                          <li>Portfolio</li>
+                          <li>Our Clients</li>
+                          <li>Careers</li>
+                        </ul>
+                      </div>
+                      <div className="flex justify-center flex-col items-center sm:flex">
+                        <p className="tracking-widest text-[0.875rem] font-bold font-spartan line-h-[20px] text-center">
+                          OFFICES
+                        </p>
+                        <ul className="sm:mt-5 text-[1rem] font-spartan font-normal">
+                          <li>345 Main St. San Francisca.CA</li>
+                          <li>103 N. 13th Street. Seatie.WA</li>
+                        </ul>
+                      </div>
+                      <div className="flex justify-center flex-col items-center sm:flex-1">
+                        <p className="tracking-widest text-[0.875rem] font-bold font-spartan line-h-[20px] text-center">
+                          CONTACT
+                        </p>
+                        <ul className="sm:mt-5 text-[1rem] font-spartan font-normal">
+                          <li>+81 555 489 902</li>
+                          <li>info@themes.com</li>
+                        </ul>
+                      </div>
+                      <div className="flex justify-center flex-col items-center sm:flex-1">
+                        <p className="tracking-widest text-[0.875rem] font-bold font-spartan line-h-[20px] text-center">
+                          ABOUT
+                        </p>
+                        <ul className="sm:mt-5 text-[1rem] font-spartan font-normal">
+                          <li>Log in to your account</li>
+                          <li className="text-center">Support</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="py-10">
+                      <img src={social} />
+                    </div>
+                    <p className="text-center text-[1rem] font-medium  font-spartan">
+                      All rights reserved &copy;. 2020.
                     </p>
-                    <ul className="sm:mt-5 text-[1rem] font-spartan font-normal">
-                      <li>Portfolio</li>
-                      <li>Our Clients</li>
-                      <li>Careers</li>
-                    </ul>
+                    <div className="">
+                      <ul className="sm:flex sm:flex-row sm:gap-10 flex flex-col justify-center items-center ">
+                        <li className="text-[1rem] font-medium font-spartan">
+                          Privacy & terms
+                        </li>
+                        <li className="text-[1rem] font-spartan font-medium">
+                          Terms of Service
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  <div className="flex justify-center flex-col items-center sm:flex">
-                    <p className="tracking-widest text-[0.875rem] font-bold font-spartan line-h-[20px] text-center">
-                      OFFICES
-                    </p>
-                    <ul className="sm:mt-5 text-[1rem] font-spartan font-normal">
-                      <li>345 Main St. San Francisca.CA</li>
-                      <li>103 N. 13th Street. Seatie.WA</li>
-                    </ul>
-                  </div>
-                  <div className="flex justify-center flex-col items-center sm:flex-1">
-                    <p className="tracking-widest text-[0.875rem] font-bold font-spartan line-h-[20px] text-center">
-                      CONTACT
-                    </p>
-                    <ul className="sm:mt-5 text-[1rem] font-spartan font-normal">
-                      <li>+81 555 489 902</li>
-                      <li>info@themes.com</li>
-                    </ul>
-                  </div>
-                  <div className="flex justify-center flex-col items-center sm:flex-1">
-                    <p className="tracking-widest text-[0.875rem] font-bold font-spartan line-h-[20px] text-center">
-                      ABOUT
-                    </p>
-                    <ul className="sm:mt-5 text-[1rem] font-spartan font-normal">
-                      <li>Log in to your account</li>
-                      <li className="text-center">Support</li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="py-10">
-                  <img src={social} />
-                </div>
-                <p className="text-center text-[1rem] font-medium  font-spartan">
-                  All rights reserved &copy;. 2020.
-                </p>
-                <div className="">
-                  <ul className="sm:flex sm:flex-row sm:gap-10 flex flex-col justify-center items-center ">
-                    <li className="text-[1rem] font-medium font-spartan">
-                      Privacy & terms
-                    </li>
-                    <li className="text-[1rem] font-spartan font-medium">
-                      Terms of Service
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
