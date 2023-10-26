@@ -5,6 +5,10 @@ import stripe from "./assets/stripe.png";
 import dribble from "./assets/dribble.png";
 import arrow from "./assets/arrow.png";
 import location from "./assets/location.png";
+import design from "./assets/design.png";
+import nurture from "./assets/nurture.png";
+import archit from "./assets/archit.png";
+import mike from "./assets/Mike.png";
 
 function App() {
   return (
@@ -159,6 +163,20 @@ function App() {
           <div className="">
             <p>From the Blog</p>
             <img src={dash} />
+          </div>
+
+          <div className="">
+            <img src={design} />
+            <p>Make your team a Design driven company</p>
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old.
+            </p>
+            <div className="flex">
+              <img src={mike} />
+              <p>BY MIKE DAMON</p>
+            </div>
           </div>
         </div>
       </div>
