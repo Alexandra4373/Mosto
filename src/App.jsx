@@ -244,8 +244,8 @@ function App() {
         </div>
 
         {/* Footer */}
-        <div className="container">
-          <div className="">
+        <div className="bg-black">
+          <div className="container">
             <div className="bg-footer p-20 text-white">
               <div className="sm:flex sm:flex-col sm:justify-center sm:items-center flex justify-center flex-col items-center">
                 <p className="text-[3rem] font-semibold font-spartan">
