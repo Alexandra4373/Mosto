@@ -169,24 +169,24 @@ function App() {
 
           <div className="py-10">
             <div className="sm:flex">
-              <div className="sm:flex-1">
-                <img src={design} />
-                <p className="text-[1.25rem] font-spartan font-semibold">
-                  Make your team a Design driven company
-                </p>
-                <p className="text-[0.875rem] font-spartan font-medium">
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature
-                  from 45 BC, making it over 2000 years old.
-                </p>
-                <div className="flex">
-                  <img src={mike} />
-                  <p className="text-[0.75rem] font-spartan text-center">
-                    BY MIKE DAMON
-                  </p>
-                </div>
-              </div>
               <div className="py-10">
+                <div className="sm:flex-1">
+                  <img src={design} />
+                  <p className="text-[1.25rem] font-spartan font-semibold">
+                    Make your team a Design driven company
+                  </p>
+                  <p className="text-[0.875rem] font-spartan font-medium">
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old.
+                  </p>
+                  <div className="flex">
+                    <img src={mike} />
+                    <p className="text-[0.75rem] font-spartan text-center">
+                      BY MIKE DAMON
+                    </p>
+                  </div>
+                </div>
                 <div className="sm:flex-1">
                   <img src={nurture} />
                   <p className="text-[1.25rem] font-spartan font-semibold">
