@@ -4,7 +4,7 @@ import projects from "./assets/Projects.png";
 import stripe from "./assets/stripe.png";
 import dribble from "./assets/dribble.png";
 import arrow from "./assets/arrow.png";
-import location from "./assets/location.png";
+// import location from "./assets/location.png";
 import design from "./assets/design.png";
 import nurture from "./assets/nurture.png";
 import archit from "./assets/archit.png";
@@ -129,7 +129,7 @@ function App() {
             <div className="sm:flex gap-10">
               <div className="sm:flex-1">
                 <p className="text-[1.2rem] text-blue mt-5">Dublin</p>
-                <ul className="text-[1rem]">
+                <ul className="mt-5 font-spartan text-[1.2rem] font-medium">
                   <li>Head of Marketing</li>
                   <li>UX Designer</li>
                   <li>Senior Programmer</li>
@@ -139,7 +139,7 @@ function App() {
               </div>
               <div className="sm:flex-1 ">
                 <p className="text-[1.2rem] text-blue mt-5">Amsterdam</p>
-                <ul>
+                <ul className="mt-5 font-spartan text-[1.2rem] font-medium">
                   <li>Head of Operations</li>
                   <li>Mobile Engineer</li>
                   <li>Animation Designer</li>
@@ -148,9 +148,9 @@ function App() {
               <div className="sm:flex-1">
                 <div className="flex items-center">
                   <p className="text-[1.2rem] text-blue mt-5">Mexico City</p>
-                  <img src={location} />
+                  {/* <img src={location} /> */}
                 </div>
-                <ul>
+                <ul className="mt-5 font-spartan text-[1.2rem] font-medium">
                   <li>Head of Motion Design</li>
                   <li>Graphics Engineer</li>
                   <li>Senior UI Designer</li>
@@ -243,54 +243,74 @@ function App() {
         <div className="container">
           <div className="">
             <div className="bg-footer p-20 text-white">
-              <p>Want to hire us?</p>
-              <p>
-                Have an idea for an awesome project? We'd love to help make it
-                real.
-              </p>
-              <button>Get in touch</button>
+              <div className="sm:flex sm:flex-col sm:justify-center sm:items-center flex justify-center flex-col items-center">
+                <p className="text-[2.5rem] font-semibold font-spartan">
+                  Want to hire us?
+                </p>
+                <p className="text-[1.25rem] font-medium font-spartan line-h-30 mt-5">
+                  Have an idea for an awesome project? We'd love to help make it
+                  real.
+                </p>
+                <div className="py-10 ">
+                  <button>Get in touch</button>
+                </div>
+              </div>
             </div>
             <div className="bg-black text-white flex gap-10 justify-center items-center flex-col">
-              <div className="py-20">
-                <div className="sm:flex gap-10">
+              <div className="sm:py-20">
+                <div className="sm:flex sm:gap-10 sm:flex-row flex flex-col gap-10">
                   <div className="flex justify-center flex-col items-center sm:flex-1">
-                    <p>COMPANY</p>
-                    <ul className="mt-5">
+                    <p className="tracking-widest text-[0.875rem] font-bold font-spartan line-h-[20px] text-center">
+                      COMPANY
+                    </p>
+                    <ul className="sm:mt-5 text-[1rem] font-spartan font-normal">
                       <li>Portfolio</li>
                       <li>Our Clients</li>
                       <li>Careers</li>
                     </ul>
                   </div>
                   <div className="flex justify-center flex-col items-center sm:flex">
-                    <p>OFFICES</p>
-                    <ul className="mt-5">
+                    <p className="tracking-widest text-[0.875rem] font-bold font-spartan line-h-[20px] text-center">
+                      OFFICES
+                    </p>
+                    <ul className="sm:mt-5 text-[1rem] font-spartan font-normal">
                       <li>345 Main St. San Francisca.CA</li>
                       <li>103 N. 13th Street. Seatie.WA</li>
                     </ul>
                   </div>
                   <div className="flex justify-center flex-col items-center sm:flex-1">
-                    <p>CONTACT</p>
-                    <ul className="mt-5">
+                    <p className="tracking-widest text-[0.875rem] font-bold font-spartan line-h-[20px] text-center">
+                      CONTACT
+                    </p>
+                    <ul className="sm:mt-5 text-[1rem] font-spartan font-normal">
                       <li>+81 555 489 902</li>
                       <li>info@themes.com</li>
                     </ul>
                   </div>
                   <div className="flex justify-center flex-col items-center sm:flex-1">
-                    <p>ABOUT</p>
-                    <ul className="mt-5">
+                    <p className="tracking-widest text-[0.875rem] font-bold font-spartan line-h-[20px] text-center">
+                      ABOUT
+                    </p>
+                    <ul className="sm:mt-5 text-[1rem] font-spartan font-normal">
                       <li>Log in to your account</li>
-                      <li>Support</li>
+                      <li className="text-center">Support</li>
                     </ul>
                   </div>
                 </div>
                 <div className="py-10">
                   <img src={social} />
                 </div>
-                <p className="text-center">All rights reserved. 2020.</p>
+                <p className="text-center text-[1rem] font-medium  font-spartan">
+                  All rights reserved &copy;. 2020.
+                </p>
                 <div className="">
-                  <ul className="sm:flex sm:gap-10 sm:justify-center sm:items-center flex flex-col justify-center items-center">
-                    <li>Privacy & terms</li>
-                    <li>Terms of Service</li>
+                  <ul className="sm:flex sm:flex-row sm:gap-10 flex flex-col justify-center items-center ">
+                    <li className="text-[1rem] font-medium font-spartan">
+                      Privacy & terms
+                    </li>
+                    <li className="text-[1rem] font-spartan font-medium">
+                      Terms of Service
+                    </li>
                   </ul>
                 </div>
               </div>
