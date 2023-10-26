@@ -113,7 +113,9 @@ function App() {
 
         <div className="bg-light">
           <div className="container py-10">
-            <p className="text-[2rem] text-blue">Careers at Inertia</p>
+            <p className="text-[2rem] text-blue font-poppins">
+              Careers at Inertia
+            </p>
             <img src={dash} />
             <p className="text-[1rem] ">
               Join us in our quest to bring the best experiences through
@@ -163,52 +165,60 @@ function App() {
         {/* Blog */}
         <div className="container">
           <div className="">
-            <p>From the Blog</p>
+            <p className="text-[2rem] text-blue font-poppins">From the Blog</p>
             <img src={dash} />
           </div>
 
           <div className="py-10">
-            <div className="sm:flex">
-              <div className="sm:flex-1">
-                <img src={design} />
-                <p className="text-[1.25rem] font-spartan font-semibold">
-                  Make your team a Design driven company
-                </p>
-                <p className="text-[0.875rem] font-spartan font-medium">
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature
-                  from 45 BC, making it over 2000 years old.
-                </p>
-                <div className="flex">
+            {/* Blog01 */}
+            <div className="sm:flex gap-10">
+              <div className="sm:flex-1 mt-5">
+                <div className="">
+                  <img src={design} />
+                </div>
+                <div className="">
+                  <p className="text-[1.25rem] font-spartan text-blue  font-semibold">
+                    Make your team a Design driven
+                    <br /> company
+                  </p>
+                  <p className="text-[0.875rem] font-spartan font-medium text-secondary">
+                    Contrary to popular belief, Lorem Ipsum is not
+                    <br /> simply random text. It has roots in a piece of <br />
+                    classical Latin literature from 45 BC, making it <br />
+                    over 2000 years old.
+                  </p>
+                </div>
+                <div className="flex  items-center mt-5 ">
                   <img src={mike} />
-                  <p className="text-[0.75rem] font-spartan text-center">
+                  <p className="text-[0.95rem] font-spartan font-medium text-center ml-2">
                     BY MIKE DAMON
                   </p>
                 </div>
               </div>
-
-              <div className="sm:flex-1">
+              {/* Blog02 */}
+              <div className="sm:flex-1 mt-5">
                 <img src={nurture} />
-                <p className="text-[1.25rem] font-spartan font-semibold">
-                  How to nurture a calm and organized work culture
+                <p className="text-[1.25rem] font-spartan font-semibold text-blue">
+                  How to nurture a calm and <br /> organized work culture
                 </p>
-                <p className="text-[0.875rem] font-spartan font-medium">
+                <p className="text-[0.875rem] font-spartan font-medium text-secondary">
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some
                   form, by injected humour.
                 </p>
-                <div className="flex">
+                <div className="flex items-center mt-5">
                   <img src={tim} />
-                  <p className="text-[0.75rem] font-spartan text-center">
+                  <p className="text-[0.95rem] font-spartan font-medium text-center ml-2">
                     BY TIM NORTON
                   </p>
                 </div>
               </div>
 
-              <div className="sm:flex-1">
+              {/* blog03 */}
+              <div className="sm:flex-1 mt-5">
                 <img src={archit} />
-                <p className="text-[1.25rem] font-spartan font-semibold font-blue">
-                  How can the architecture influence our mood
+                <p className="text-[1.25rem] font-spartan font-semibold text-blue">
+                  How can the architecture <br /> influence our mood
                 </p>
                 <p className="text-[1rem] font-spartan font-medium text-secondary">
                   The standard chunk of Lorem Ipsum used since the 1500s is
