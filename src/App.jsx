@@ -4,6 +4,7 @@ import projects from "./assets/Projects.png";
 import stripe from "./assets/stripe.png";
 import dribble from "./assets/dribble.png";
 import arrow from "./assets/arrow.png";
+import location from "./assets/location.png";
 
 function App() {
   return (
@@ -134,7 +135,10 @@ function App() {
                 </ul>
               </div>
               <div className="sm:flex-1">
-                <p className="text-[1.2rem] text-blue mt-5">Mexico City</p>
+                <div className="flex items-center">
+                  <p className="text-[1.2rem] text-blue mt-5">Mexico City</p>
+                  <img src={location} />
+                </div>
                 <ul>
                   <li>Head of Motion Design</li>
                   <li>Graphics Engineer</li>
@@ -151,9 +155,11 @@ function App() {
         </div>
 
         {/* Blog */}
-        <div className="">
-          <p>From the Blog</p>
-          <img src={dash} />
+        <div className="container">
+          <div className="">
+            <p>From the Blog</p>
+            <img src={dash} />
+          </div>
         </div>
       </div>
     </>
