@@ -9,6 +9,8 @@ import design from "./assets/design.png";
 import nurture from "./assets/nurture.png";
 import archit from "./assets/archit.png";
 import mike from "./assets/Mike.png";
+import jones from "./assets/jones.png";
+import tim from "./assets/Tem.png";
 
 function App() {
   return (
@@ -165,17 +167,49 @@ function App() {
             <img src={dash} />
           </div>
 
-          <div className="">
+          <div className="py-10">
             <img src={design} />
-            <p>Make your team a Design driven company</p>
-            <p>
+            <p className="text-[1.25rem] font-spartan font-medium">
+              Make your team a Design driven company
+            </p>
+            <p className="text-[0.875rem] font-spartan">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
               making it over 2000 years old.
             </p>
             <div className="flex">
               <img src={mike} />
-              <p>BY MIKE DAMON</p>
+              <p className="text-[0.75rem] font-spartan text-center">
+                BY MIKE DAMON
+              </p>
+            </div>
+          </div>
+
+          <div className="py-10">
+            <img src={nurture} />
+            <p>How to nurture a calm and organized work culture</p>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <div className="flex">
+              <img src={tim} />
+              <p>BY TIM NORTON</p>
+            </div>
+          </div>
+
+          <div className="py-10">
+            <img src={archit} />
+            <p>How can the architecture influence our mood</p>
+            <p>
+              The standard chunk of Lorem Ipsum used since the 1500s is
+              reproduced below for those interested. Sections 1.10.32 and
+              1.10.33.
+            </p>
+            <div className="flex">
+              <img src={jones} />
+              <p>BY JESSICA JONES</p>
             </div>
           </div>
         </div>
