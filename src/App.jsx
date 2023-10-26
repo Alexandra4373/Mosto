@@ -188,7 +188,7 @@ function App() {
                     Make your team a Design driven
                     <br /> company
                   </p>
-                  <p className="text-[0.875rem] font-spartan font-medium text-secondary">
+                  <p className="text-[1rem] font-spartan font-medium text-secondary">
                     Contrary to popular belief, Lorem Ipsum is not
                     <br /> simply random text. It has roots in a piece of <br />
                     classical Latin literature from 45 BC, making it <br />
@@ -208,7 +208,7 @@ function App() {
                 <p className="text-[1.25rem] font-spartan font-semibold text-blue">
                   How to nurture a calm and <br /> organized work culture
                 </p>
-                <p className="text-[0.875rem] font-spartan font-medium text-secondary">
+                <p className="text-[1rem] font-spartan font-medium text-secondary">
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some
                   form, by injected humour.
