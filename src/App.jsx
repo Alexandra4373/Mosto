@@ -169,43 +169,43 @@ function App() {
 
           <div className="py-10">
             <div className="sm:flex">
-              <div className="py-10">
-                <div className="sm:flex-1">
-                  <img src={design} />
-                  <p className="text-[1.25rem] font-spartan font-semibold">
-                    Make your team a Design driven company
+              <div className="sm:flex-1">
+                <img src={design} />
+                <p className="text-[1.25rem] font-spartan font-semibold">
+                  Make your team a Design driven company
+                </p>
+                <p className="text-[0.875rem] font-spartan font-medium">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old.
+                </p>
+                <div className="flex">
+                  <img src={mike} />
+                  <p className="text-[0.75rem] font-spartan text-center">
+                    BY MIKE DAMON
                   </p>
-                  <p className="text-[0.875rem] font-spartan font-medium">
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature
-                    from 45 BC, making it over 2000 years old.
-                  </p>
-                  <div className="flex">
-                    <img src={mike} />
-                    <p className="text-[0.75rem] font-spartan text-center">
-                      BY MIKE DAMON
-                    </p>
-                  </div>
-                </div>
-                <div className="sm:flex-1">
-                  <img src={nurture} />
-                  <p className="text-[1.25rem] font-spartan font-semibold">
-                    How to nurture a calm and organized work culture
-                  </p>
-                  <p className="text-[0.875rem] font-spartan font-medium">
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some
-                    form, by injected humour.
-                  </p>
-                  <div className="flex">
-                    <img src={tim} />
-                    <p className="text-[0.75rem] font-spartan text-center">
-                      BY TIM NORTON
-                    </p>
-                  </div>
                 </div>
               </div>
-              <div className="py-10">
+
+              <div className="sm:flex-1">
+                <img src={nurture} />
+                <p className="text-[1.25rem] font-spartan font-semibold">
+                  How to nurture a calm and organized work culture
+                </p>
+                <p className="text-[0.875rem] font-spartan font-medium">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour.
+                </p>
+                <div className="flex">
+                  <img src={tim} />
+                  <p className="text-[0.75rem] font-spartan text-center">
+                    BY TIM NORTON
+                  </p>
+                </div>
+              </div>
+
+              <div className="sm:flex-1">
                 <img src={archit} />
                 <p className="text-[1.25rem] font-spartan font-semibold font-blue">
                   How can the architecture influence our mood
