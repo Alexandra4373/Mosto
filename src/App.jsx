@@ -11,6 +11,7 @@ import archit from "./assets/archit.png";
 import mike from "./assets/Mike.png";
 import jones from "./assets/jones.png";
 import tim from "./assets/Tem.png";
+import social from "./assets/Social.png";
 
 function App() {
   return (
@@ -74,11 +75,13 @@ function App() {
         </div>
 
         {/* featured products */}
-        <div className="container py-10">
-          <div className="sm:flex sm:text-center sm:justify-center sm:items-center sm:flex-col flex  flex-col items-center">
-            <p className="text-[2rem] text-blue">Featured Projects</p>
-            <img src={dash} />
-            <img src={projects} />
+        <div className="bg-light">
+          <div className="container py-10 ">
+            <div className="sm:flex sm:text-center sm:justify-center sm:items-center sm:flex-col flex  flex-col items-center">
+              <p className="text-[2rem] text-blue">Featured Projects</p>
+              <img src={dash} />
+              <img src={projects} />
+            </div>
           </div>
         </div>
 
@@ -234,6 +237,49 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Footer */}
+        <div className="">
+          <p>Want to hire us?</p>
+          <p>
+            Have an idea for an awesome project? We'd love to help make it real.
+          </p>
+          <button>Get in touch</button>
+
+          <p>COMPANY</p>
+          <ul>
+            <li>Portfolio</li>
+            <li>Our Clients</li>
+            <li>Careers</li>
+          </ul>
+
+          <p>OFFICES</p>
+          <ul>
+            <li>345 Main St. San Francisca.CA</li>
+            <li>103 N. 13th Street. Seatie.WA</li>
+          </ul>
+
+          <p>CONTACT</p>
+          <ul>
+            <li>+81 555 489 902</li>
+            <li>info@themes.com</li>
+          </ul>
+
+          <p>ABOUT</p>
+          <ul>
+            <li>Log in to your account</li>
+            <li>Support</li>
+          </ul>
+
+          <img src={social} />
+
+          <p>All rights reserved. 2020.</p>
+
+          <ul>
+            <li>Privacy & terms</li>
+            <li>Terms of Service</li>
+          </ul>
         </div>
       </div>
     </>
