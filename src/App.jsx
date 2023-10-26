@@ -64,7 +64,7 @@ function App() {
               Welcome to the Inertia Agency
             </p>
             <img src={dash} />
-            <p className="text-[1rem]">
+            <p className="text-[1.2rem] font-inter font-medium">
               Inertia was founded to help developers and designers with their
               projects by <br /> offering great quality products. By developing
               a nicely designed, easy to customize <br /> theme, we strive to
@@ -91,42 +91,46 @@ function App() {
               <div className="flex justify-center items-center">
                 <img src={stripe} />
               </div>
-              <p className="mt-5 text-[1.2rem]">
+              <p className="mt-5 text-[1.2rem] font-inter font-medium">
                 "Focus on creating and growing your projects and websites, and
                 we‘ll always take care of spinning up new designs for your users
                 and making sure they look great"
               </p>
-              <p className="text-blue text-[1rem] mt-5">Roger Waters</p>
+              <p className="text-blue text-[1rem] font-spartan mt-5">
+                Roger Waters
+              </p>
               <p className="text-secondary text-[1rem]">Head of Design</p>
             </div>
             <div className="">
               <div className="flex justify-center items-center">
                 <img src={dribble} />
               </div>
-              <p className="mt-5 text-[1.2rem]">
+              <p className="mt-5 text-[1.2rem] font-inter font-medium">
                 "The work that Inertia has done for our mobile app designs far
                 exceeded our expectations, can't wait to work with them once
                 again!"
               </p>
-              <p className="text-blue text-[1rem] mt-5">David Gilmour</p>
+              <p className="text-blue text-[1rem] font-spartan mt-5">
+                David Gilmour
+              </p>
               <p className="text-secondary text-[1rem]">Co-Founder</p>
             </div>
           </div>
         </div>
 
         <div className="bg-light">
-          <div className="container py-10">
+          <div className="container py-20">
             <p className="text-[2rem] text-blue font-poppins">
               Careers at Inertia
             </p>
             <img src={dash} />
-            <p className="text-[1rem] ">
+            <p className="text-[1.2rem] font-inter font-medium ">
               Join us in our quest to bring the best experiences through
               <br /> design and technology to the world, our most important{" "}
               <br />
               vision is to have the best work culture possible.
             </p>
-            <div className="sm:flex gap-10">
+            <div className="sm:flex gap-10 py-10">
               <div className="sm:flex-1">
                 <p className="text-[1.2rem] text-blue mt-5">Dublin</p>
                 <ul className="mt-5 font-spartan text-[1.2rem] font-medium">
