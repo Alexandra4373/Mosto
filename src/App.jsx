@@ -205,17 +205,17 @@ function App() {
 
           <div className="py-10">
             <img src={archit} />
-            <p className="text-[1.25rem] font-spartan font-semibold">
+            <p className="text-[1.25rem] font-spartan font-semibold font-blue">
               How can the architecture influence our mood
             </p>
-            <p className="text-[0.875rem] font-spartan font-medium">
+            <p className="text-[1rem] font-spartan font-medium text-secondary">
               The standard chunk of Lorem Ipsum used since the 1500s is
               reproduced below for those interested. Sections 1.10.32 and
               1.10.33.
             </p>
-            <div className="flex">
+            <div className="flex  items-center mt-5 ">
               <img src={jones} />
-              <p className="text-[0.75rem] font-spartan text-center">
+              <p className="text-[0.95rem] font-spartan font-medium text-center ml-2">
                 BY JESSICA JONES
               </p>
             </div>
