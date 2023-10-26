@@ -9,6 +9,7 @@ export default {
       },
       backgroundImage: {
         hero: "url('/src/assets/header.png')",
+        footer: "url('src/assets/FOOTER.png')",
       },
 
       colors: {

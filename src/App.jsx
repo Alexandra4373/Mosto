@@ -240,46 +240,62 @@ function App() {
         </div>
 
         {/* Footer */}
-        <div className="">
-          <p>Want to hire us?</p>
-          <p>
-            Have an idea for an awesome project? We'd love to help make it real.
-          </p>
-          <button>Get in touch</button>
-
-          <p>COMPANY</p>
-          <ul>
-            <li>Portfolio</li>
-            <li>Our Clients</li>
-            <li>Careers</li>
-          </ul>
-
-          <p>OFFICES</p>
-          <ul>
-            <li>345 Main St. San Francisca.CA</li>
-            <li>103 N. 13th Street. Seatie.WA</li>
-          </ul>
-
-          <p>CONTACT</p>
-          <ul>
-            <li>+81 555 489 902</li>
-            <li>info@themes.com</li>
-          </ul>
-
-          <p>ABOUT</p>
-          <ul>
-            <li>Log in to your account</li>
-            <li>Support</li>
-          </ul>
-
-          <img src={social} />
-
-          <p>All rights reserved. 2020.</p>
-
-          <ul>
-            <li>Privacy & terms</li>
-            <li>Terms of Service</li>
-          </ul>
+        <div className="container">
+          <div className="">
+            <div className="bg-footer p-20 text-white">
+              <p>Want to hire us?</p>
+              <p>
+                Have an idea for an awesome project? We'd love to help make it
+                real.
+              </p>
+              <button>Get in touch</button>
+            </div>
+            <div className="bg-black text-white flex gap-10 justify-center items-center flex-col">
+              <div className="py-20">
+                <div className="sm:flex gap-10">
+                  <div className="flex justify-center flex-col items-center sm:flex-1">
+                    <p>COMPANY</p>
+                    <ul className="mt-5">
+                      <li>Portfolio</li>
+                      <li>Our Clients</li>
+                      <li>Careers</li>
+                    </ul>
+                  </div>
+                  <div className="flex justify-center flex-col items-center sm:flex">
+                    <p>OFFICES</p>
+                    <ul className="mt-5">
+                      <li>345 Main St. San Francisca.CA</li>
+                      <li>103 N. 13th Street. Seatie.WA</li>
+                    </ul>
+                  </div>
+                  <div className="flex justify-center flex-col items-center sm:flex-1">
+                    <p>CONTACT</p>
+                    <ul className="mt-5">
+                      <li>+81 555 489 902</li>
+                      <li>info@themes.com</li>
+                    </ul>
+                  </div>
+                  <div className="flex justify-center flex-col items-center sm:flex-1">
+                    <p>ABOUT</p>
+                    <ul className="mt-5">
+                      <li>Log in to your account</li>
+                      <li>Support</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="py-10">
+                  <img src={social} />
+                </div>
+                <p className="text-center">All rights reserved. 2020.</p>
+                <div className="">
+                  <ul className="sm:flex sm:gap-10 sm:justify-center sm:items-center flex flex-col justify-center items-center">
+                    <li>Privacy & terms</li>
+                    <li>Terms of Service</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
