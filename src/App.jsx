@@ -3,6 +3,7 @@ import dash from "./assets/Minus.png";
 import projects from "./assets/Projects.png";
 import stripe from "./assets/stripe.png";
 import dribble from "./assets/dribble.png";
+import arrow from "./assets/arrow.png";
 
 function App() {
   return (
@@ -124,7 +125,7 @@ function App() {
                   <li>Lead Product Designer</li>
                 </ul>
               </div>
-              <div className="sm:flex-1">
+              <div className="sm:flex-1 ">
                 <p className="text-[1.2rem] text-blue mt-5">Amsterdam</p>
                 <ul>
                   <li>Head of Operations</li>
@@ -142,13 +143,17 @@ function App() {
                 </ul>
               </div>
             </div>
-            <button className="mt-5">Careers at Inertia</button>
+            <div className="flex">
+              <button className="mt-5">Careers at Inertia</button>
+              <img src={arrow} />
+            </div>
           </div>
         </div>
 
         {/* Blog */}
         <div className="">
           <p>From the Blog</p>
+          <img src={dash} />
         </div>
       </div>
     </>
