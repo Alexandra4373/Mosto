@@ -169,10 +169,10 @@ function App() {
 
           <div className="py-10">
             <img src={design} />
-            <p className="text-[1.25rem] font-spartan font-medium">
+            <p className="text-[1.25rem] font-spartan font-semibold">
               Make your team a Design driven company
             </p>
-            <p className="text-[0.875rem] font-spartan">
+            <p className="text-[0.875rem] font-spartan font-medium">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
               making it over 2000 years old.
@@ -187,29 +187,37 @@ function App() {
 
           <div className="py-10">
             <img src={nurture} />
-            <p>How to nurture a calm and organized work culture</p>
-            <p>
+            <p className="text-[1.25rem] font-spartan font-semibold">
+              How to nurture a calm and organized work culture
+            </p>
+            <p className="text-[0.875rem] font-spartan font-medium">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour.
             </p>
             <div className="flex">
               <img src={tim} />
-              <p>BY TIM NORTON</p>
+              <p className="text-[0.75rem] font-spartan text-center">
+                BY TIM NORTON
+              </p>
             </div>
           </div>
 
           <div className="py-10">
             <img src={archit} />
-            <p>How can the architecture influence our mood</p>
-            <p>
+            <p className="text-[1.25rem] font-spartan font-semibold">
+              How can the architecture influence our mood
+            </p>
+            <p className="text-[0.875rem] font-spartan font-medium">
               The standard chunk of Lorem Ipsum used since the 1500s is
               reproduced below for those interested. Sections 1.10.32 and
               1.10.33.
             </p>
             <div className="flex">
               <img src={jones} />
-              <p>BY JESSICA JONES</p>
+              <p className="text-[0.75rem] font-spartan text-center">
+                BY JESSICA JONES
+              </p>
             </div>
           </div>
         </div>
