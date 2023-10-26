@@ -132,7 +132,7 @@ function App() {
             </p>
             <div className="sm:flex gap-10 py-10">
               <div className="sm:flex-1">
-                <p className="text-[1.2rem] text-blue mt-5">Dublin</p>
+                <p className="text-[1.75rem] text-blue mt-5">Dublin</p>
                 <ul className="mt-5 font-spartan text-[1.2rem] font-medium">
                   <li>Head of Marketing</li>
                   <li>UX Designer</li>
@@ -142,7 +142,7 @@ function App() {
                 </ul>
               </div>
               <div className="sm:flex-1 ">
-                <p className="text-[1.2rem] text-blue mt-5">Amsterdam</p>
+                <p className="text-[1.75rem] text-blue mt-5">Amsterdam</p>
                 <ul className="mt-5 font-spartan text-[1.2rem] font-medium">
                   <li>Head of Operations</li>
                   <li>Mobile Engineer</li>
@@ -151,7 +151,7 @@ function App() {
               </div>
               <div className="sm:flex-1">
                 <div className="flex items-center">
-                  <p className="text-[1.2rem] text-blue mt-5">Mexico City</p>
+                  <p className="text-[1.75rem] text-blue mt-5">Mexico City</p>
                   {/* <img src={location} /> */}
                 </div>
                 <ul className="mt-5 font-spartan text-[1.2rem] font-medium">
@@ -248,7 +248,7 @@ function App() {
           <div className="">
             <div className="bg-footer p-20 text-white">
               <div className="sm:flex sm:flex-col sm:justify-center sm:items-center flex justify-center flex-col items-center">
-                <p className="text-[2.5rem] font-semibold font-spartan">
+                <p className="text-[3rem] font-semibold font-spartan">
                   Want to hire us?
                 </p>
                 <p className="text-[1.25rem] font-medium font-spartan line-h-30 mt-5">
