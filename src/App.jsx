@@ -26,7 +26,7 @@ function App() {
               <div className="">
                 <img src={logo} />
               </div>
-              <ul className=" text-white hidden sm:flex gap-5">
+              <ul className=" text-white hidden sm:flex gap-5 cursor-pointer">
                 <li>Home Pages</li>
                 <li>Blogs</li>
                 <li>Pages</li>
@@ -133,7 +133,7 @@ function App() {
             <div className="sm:flex gap-10 py-10">
               <div className="sm:flex-1">
                 <p className="text-[1.75rem] text-blue mt-5">Dublin</p>
-                <ul className="mt-5 font-spartan text-[1.2rem] font-medium">
+                <ul className="mt-5 font-spartan text-[1.2rem] font-medium cursor-pointer">
                   <li>Head of Marketing</li>
                   <li>UX Designer</li>
                   <li>Senior Programmer</li>
@@ -143,7 +143,7 @@ function App() {
               </div>
               <div className="sm:flex-1 ">
                 <p className="text-[1.75rem] text-blue mt-5">Amsterdam</p>
-                <ul className="mt-5 font-spartan text-[1.2rem] font-medium">
+                <ul className="mt-5 font-spartan text-[1.2rem] font-medium cursor-pointer">
                   <li>Head of Operations</li>
                   <li>Mobile Engineer</li>
                   <li>Animation Designer</li>
@@ -154,7 +154,7 @@ function App() {
                   <p className="text-[1.75rem] text-blue mt-5">Mexico City</p>
                   {/* <img src={location} /> */}
                 </div>
-                <ul className="mt-5 font-spartan text-[1.2rem] font-medium">
+                <ul className="mt-5 font-spartan text-[1.2rem] font-medium cursor-pointer">
                   <li>Head of Motion Design</li>
                   <li>Graphics Engineer</li>
                   <li>Senior UI Designer</li>
